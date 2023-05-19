@@ -1,4 +1,4 @@
-package MyInvinciBagel;
+package com.example.myInvinciBagel;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -158,16 +158,16 @@ public class MyInvinciBagel extends Application {
 
         buttonContainer.getChildren().addAll(gameButton, helpButton, scoreButton, legalButton);
 
-        splashScreenImage = new Image("/invincibagelsplash.png", 640, 400, true, false, true);
+        splashScreenImage = new Image(getClass().getResource("invincibagelsplash.png").toString(), 640, 400, true, false, true);
         splashScreenBackground = new ImageView();
         splashScreenBackground.setImage(splashScreenImage);
 
-        instructionLayerImage = new Image("/invincibagelinstruct.png", 640, 400, true, false, true);
+        instructionLayerImage = new Image(getClass().getResource("invincibagelinstruct.png").toString(), 640, 400, true, false, true);
         splashScreenTextArea = new ImageView();
         splashScreenTextArea.setImage(instructionLayerImage);
 
-        legalLayerImage = new Image("/invincibagelcreds.png", 640, 400, true, false, true);
-        scoresLayerImage = new Image("/invincibagelscores.png", 640, 400, true, false, true);
+        legalLayerImage = new Image(getClass().getResource("invincibagelcreds.png").toString(), 640, 400, true, false, true);
+        scoresLayerImage = new Image(getClass().getResource("invincibagelscores.png").toString(), 640, 400, true, false, true);
     }
 
     public void addNotesToStackPane() {

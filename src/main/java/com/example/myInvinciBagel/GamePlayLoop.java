@@ -1,4 +1,4 @@
-package MyInvinciBagel;
+package com.example.myInvinciBagel;
 
 import javafx.animation.AnimationTimer;
 import javafx.geometry.Pos;

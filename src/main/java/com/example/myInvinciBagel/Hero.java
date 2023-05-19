@@ -1,4 +1,4 @@
-package MyInvinciBagel;
+package com.example.myInvinciBagel;
 
 import javafx.scene.image.Image;
 
